@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Personal Website</title>
+    <meta name="description"
+        content="Personal portfolio website showcasing skills, education, and professional experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ====== NAVBAR ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Portfolio<span class="logo-bracket"> /&gt;</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#tentang" class="nav-link" data-section="tentang">Tentang</a></li>
+                <li><a href="#pendidikan" class="nav-link" data-section="pendidikan">Pendidikan</a></li>
+                <li><a href="#skill" class="nav-link" data-section="skill">Skill</a></li>
+                <li><a href="#pengalaman" class="nav-link" data-section="pengalaman">Pengalaman</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== HERO ====== -->
+    <header class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="hero-orb hero-orb--1"></div>
+            <div class="hero-orb hero-orb--2"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container hero-content">
+            <p class="hero-greeting">Halo, saya</p>
+            <h1 class="hero-name">Adrian Maulana Rizqy</h1>
+            <p class="hero-title">Junior Web Programmer</p>
+            <p class="hero-tagline">Membangun solusi web yang fungsional dan berdampak dengan semangat belajar tanpa
+                henti.</p>
+            <div class="hero-cta">
+                <a href="#tentang" class="btn btn-primary">
+                    <span>Tentang Saya</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="#pengalaman" class="btn btn-outline">Lihat Portofolio</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">1+</span>
+                    <span class="stat-label">Tahun Pengalaman</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Proyek Selesai</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Teknologi</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll ke bawah</span>
+        </div>
+    </header>
+
+    <!-- ====== TENTANG ====== -->
+    <section class="section" id="tentang">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Perkenalan</span>
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="about-image-wrapper">
+                        <div class="about-avatar">
+                            <img src="img/foto.png" alt="Foto Adrian Maulana Rizqy">
+                        </div>
+                        <div class="about-image-border"></div>
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <h3>Halo! Saya <span class="text-accent">Adrian Maulana Rizqy</span></h3>
+                    <p>Seorang Junior Web Programmer lulusan Teknik Informatika UNIKOM Bandung. Saya memiliki semangat
+                        tinggi dalam membangun aplikasi web yang fungsional, responsif, dan user-friendly.</p>
+                    <p>Berpengalaman dalam mengembangkan sistem berbasis web untuk kebutuhan perusahaan dan organisasi.
+                        Saya percaya bahwa teknologi terbaik adalah yang memberikan solusi nyata bagi penggunanya.</p>
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <span class="info-label">Lokasi</span>
+                                <span class="info-value">Bandung, Indonesia</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email</span>
+                                <span class="info-value">adrianmaulana110403@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <div>
+                                <span class="info-label">Status</span>
+                                <span class="info-value">Open to Work</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-language"></i>
+                            <div>
+                                <span class="info-label">Bahasa</span>
+                                <span class="info-value">Indonesia, English</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PENDIDIKAN ====== -->
+    <section class="section section-alt" id="pendidikan">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Riwayat</span>
+                <h2 class="section-title">Pendidikan</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            2022 — 2026
+                        </span>
+                        <h3>S1 Teknik Informatika</h3>
+                        <h4>Universitas Komputer Indonesia (UNIKOM)</h4>
+                        <p>Mendalami pengembangan web, basis data, dan rekayasa perangkat lunak. Aktif dalam
+                            proyek-proyek pengembangan aplikasi berbasis web.</p>
+                        <span class="timeline-badge">IPK: 3.03 / 4.00</span>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            2018 — 2021
+                        </span>
+                        <h3>MAN 2 Kota Cilegon — Jurusan IPA</h3>
+                        <h4>Kota Cilegon, Banten</h4>
+                        <p>Menempuh pendidikan menengah atas dengan jurusan Ilmu Pengetahuan Alam. Mengembangkan minat
+                            awal di bidang teknologi dan pemrograman.</p>
+                        <span class="timeline-badge">Lulus 2021</span>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            2025
+                        </span>
+                        <h3>Junior Web Programmer</h3>
+                        <h4>BNSP (Badan Nasional Sertifikasi Profesi)</h4>
+                        <p>Sertifikasi kompetensi nasional sebagai Junior Web Programmer, mencakup pengembangan
+                            front-end, back-end, dan pengelolaan basis data untuk aplikasi web.</p>
+                        <span class="timeline-badge">Certified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== SKILL ====== -->
+    <section class="section" id="skill">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Kemampuan</span>
+                <h2 class="section-title">Skill</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="skills-category reveal">
+                <h3 class="skills-category-title">
+                    <i class="fa-solid fa-code"></i>
+                    Technical Skills
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                        <h4>HTML5</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                        <h4>CSS3</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                        <h4>JavaScript</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+                        <h4>React</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-node-js"></i></div>
+                        <h4>Node.js</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="82"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                        <h4>Python</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                        <h4>SQL / NoSQL</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="78"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                        <h4>Git</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category reveal">
+                <h3 class="skills-category-title">
+                    <i class="fa-solid fa-wrench"></i>
+                    Tools &amp; Platforms
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-docker"></i></div>
+                        <h4>Docker</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-aws"></i></div>
+                        <h4>AWS</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="72"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-figma"></i></div>
+                        <h4>Figma</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+                        <h4>Linux / CLI</h4>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category reveal">
+                <h3 class="skills-category-title">
+                    <i class="fa-solid fa-people-group"></i>
+                    Soft Skills
+                </h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-tag"><i class="fa-solid fa-comments"></i> Komunikasi</div>
+                    <div class="soft-skill-tag"><i class="fa-solid fa-users"></i> Kerja Tim</div>
+                    <div class="soft-skill-tag"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+                    <div class="soft-skill-tag"><i class="fa-solid fa-clock"></i> Manajemen Waktu</div>
+                    <div class="soft-skill-tag"><i class="fa-solid fa-brain"></i> Critical Thinking</div>
+                    <div class="soft-skill-tag"><i class="fa-solid fa-seedling"></i> Adaptif</div>
+                    <div class="soft-skill-tag"><i class="fa-solid fa-bullseye"></i> Detail-Oriented</div>
+                    <div class="soft-skill-tag"><i class="fa-solid fa-hand-holding-heart"></i> Leadership</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PENGALAMAN ====== -->
+    <section class="section section-alt" id="pengalaman">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Perjalanan Karir</span>
+                <h2 class="section-title">Pengalaman</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            2025
+                        </span>
+                        <h3>Pengembangan Aplikasi E-Manrisk</h3>
+                        <h4>PT. PINDAD (Persero)</h4>
+                        <p>Mengembangkan aplikasi E-Manrisk (Electronic Manajemen Risiko) untuk digitalisasi proses
+                            manajemen risiko perusahaan. Bertanggung jawab dalam pengembangan fitur-fitur utama sistem
+                            berbasis web.</p>
+                        <div class="timeline-tags">
+                            <span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-heartbeat"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            2024
+                        </span>
+                        <h3>Website Kesehatan Berat Badan Ideal</h3>
+                        <h4>Proyek Mandiri</h4>
+                        <p>Membangun website kalkulator kesehatan berat badan ideal yang interaktif dan responsif. Fitur
+                            meliputi perhitungan BMI, rekomendasi kesehatan, dan visualisasi data.</p>
+                        <div class="timeline-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            2024
+                        </span>
+                        <h3>Website Pemesanan Online GOR DENSER</h3>
+                        <h4>Proyek Mandiri</h4>
+                        <p>Mengembangkan sistem pemesanan online untuk Gelanggang Olahraga (GOR) DENSER, mencakup fitur
+                            booking lapangan, jadwal ketersediaan, dan manajemen reservasi.</p>
+                        <div class="timeline-tags">
+                            <span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>CRUD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            2024
+                        </span>
+                        <h3>Aplikasi Lengkong Culinary Night</h3>
+                        <h4>Proyek Mandiri — Android</h4>
+                        <p>Mengembangkan aplikasi berbasis Android yang menyajikan informasi lengkap seputar area
+                            kuliner Lengkong Culinary Night, meliputi jam operasional, profil penjual/tenant, serta
+                            fitur rating dan ulasan dari masing-masing tenant.</p>
+                        <div class="timeline-tags">
+                            <span>Android</span><span>Java</span><span>Firebase</span><span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-bracket">&lt;</span>Portfolio<span class="logo-bracket"> /&gt;</span>
+                    </a>
+                    <p>Membangun masa depan, satu baris kode pada satu waktu.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Adrian Maulana Rizqy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
